@@ -1,7 +1,7 @@
 ---
 title: 컴퓨터알고리즘 3주차 정리
 layout: post
-post-image: https://ww.namu.la/s/146b60d7b4733ab70547914b288ab6449e63a164589c674cab5ed0d14c96bf5be9ab98261cbf419b71a0f10c4897a1082b7b94a213af1b1659fe4f6787ddc8844f406062377cb13aab18d0f145a2d3e1
+post-image: https://postfiles.pstatic.net/MjAxOTA3MjdfMTUx/MDAxNTY0MjI0MzUzOTQ1.ig9X1dQ5C39vyrcfMy1ecrRlbV7LbTWPIxZv5yGZMhwg.IxoHl0_okSXyliYGZeQQRggw1xTLrwTYInotSbDpQtMg.JPEG.parkamsterdam/IMG_2126.jpg?type=w773
 description: 컴퓨터알고리즘 3주차 정리
 tags:
 - selection problem
