@@ -1,7 +1,7 @@
 ---
 title: 컴퓨터알고리즘 3주차 정리
 layout: post
-post-image: http://upload2.inven.co.kr/upload/2018/11/22/bbs/i16147474661.jpg
+post-image: https://mblogthumb-phinf.pstatic.net/MjAxODAyMDFfMjQw/MDAxNTE3NDYxOTM2OTg3.4Qes1y39L75ftwaSWfVahpYMbiEGXPd0ua7XBK4qwfMg.pDzBkdnaa5yxEThYlGFgGfAbnUNUpYQwZNWcafD4g8Ag.JPEG.korea0313/1.JPG?type=w800
 description: 컴퓨터알고리즘 3주차 정리
 tags:
 - selection problem
@@ -14,7 +14,7 @@ use_math: true
 
 ## 첫번째 시도
 - 수업시간에 들었듯이 퀵 정렬과 혼합하여 만들었다.
-- 처음에 배열을 만들고, **k**라는 배열 중 k번째 작은 숫자를 지정하였다.
+- 처음에 배열을 만들고, 배열 중 k번째 작은 숫자 **k**를 지정하였다.
 - 그 후 배열의 왼쪽 끝과 오른쪽 끝인 **left**,**right**를 지정하여 **selection problem**이라는 함수에 넣었다.
 - 정렬은 랜덤으로 구한 pivot을 기준으로 하는 퀵 정렬의 방법을 따랐다.
 
@@ -44,7 +44,7 @@ def selection_problem(arr,left,right,k):
         else: 
             p+=1
             q-=1
-   # 이후에는 피벗보다 작은 그룹의 크기와 k를 비교하여 k번쨰 숫자를 찾아나갔다.
+   # 이후에는 피벗보다 숫자가 작은 그룹의 크기와 k를 비교하여 k번쨰 숫자를 찾아나갔다.
     arr[left],arr[q]=arr[q],arr[left]
     small_group=q-left
     if (k==small_group+1):
