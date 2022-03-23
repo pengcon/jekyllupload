@@ -1,7 +1,7 @@
 ---
 title: 컴퓨터알고리즘 3주차 정리
 layout: post
-post-image: https://postfiles.pstatic.net/MjAxOTA3MjdfMTUx/MDAxNTY0MjI0MzUzOTQ1.ig9X1dQ5C39vyrcfMy1ecrRlbV7LbTWPIxZv5yGZMhwg.IxoHl0_okSXyliYGZeQQRggw1xTLrwTYInotSbDpQtMg.JPEG.parkamsterdam/IMG_2126.jpg?type=w773
+post-image: http://upload2.inven.co.kr/upload/2018/11/22/bbs/i16147474661.jpg
 description: 컴퓨터알고리즘 3주차 정리
 tags:
 - selection problem
@@ -131,7 +131,8 @@ print(selection_problem(arr,0,len(arr)-1,k))
 - 첫 분할 후 큰 부분의 크기는 (3n-1)/4이다. 편의상 (3/4)n라고 한다고 한다.
 - 두번째 분할을 하면 분할시간은 (3/4)n이다. 분할 후 최대 크기는 $(3/4)^2 n)$이다.
 - 이를 반복하면 $O(n+(3/4)n+...+(3/4)^i n)=O(n)$
-- 여기에 2를 곱하여도 $O(n)$ 이다
+- 여기에 2를 곱하여도 $O(n)$ 이다.
+- 따라서 시간복잡도는 $O(n)$ 이다.
 ## 오늘의 교훈
 - 머릿속으로 코드의 과정을 생각하면서 코딩하자
 - 안그러면 나중에 차차 생각하다 꼬인다.
